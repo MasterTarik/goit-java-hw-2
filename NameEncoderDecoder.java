@@ -11,6 +11,11 @@ class NameEncoderDecoder {
   }
  
   public static void main(String[] args) {
+    String name = "Cosarif";
+    NameEncoderDecoder nameEncoderDecoder = new NameEncoderDecoder();
     
+    String encodeName = nameEncoderDecoder.encode(name);
+    System.out.println("encode = " + encodeName);
+    Sysem.out.println("encode = " + nameEncoderDecoder.decode(encodeName));
   }
 }
