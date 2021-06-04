@@ -10,7 +10,7 @@ class NameEncoderDecoder {
     return name.replace(code[1], "").replace(code[0], "").replace("1", "e").replace("2", "u").replace("3", "i").replace("4", "o").replace("5", "a");
   }
  
-  public satatic void main(String[] args) {
+  public static void main(String[] args) {
     
   }
 }
