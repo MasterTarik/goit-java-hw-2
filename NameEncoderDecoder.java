@@ -16,6 +16,6 @@ class NameEncoderDecoder {
     
     String encodeName = nameEncoderDecoder.encode(name);
     System.out.println("encode = " + encodeName);
-    System.out.println("encode = " + nameEncoderDecoder.decode(encodeName));
+    System.out.println("decode = " + nameEncoderDecoder.decode(encodeName));
   }
 }
